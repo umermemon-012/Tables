@@ -4,65 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Umer's Work</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>School Time Table</h1>
      <table border="1">
         <tr>
-            <th>Day</th>
-            <th>Period 1<br>9:00 - 10:00</th>
-            <th>Period 2<br>10:00 - 11:00</th>
-            <th>Break<br>11:00 - 11:30</th>
-            <th>Period 3<br>11:30 - 12:30</th>
-            <th>Period 4<br>12:30 - 1:30</th>
+            <th data-label="Day">Day</th>
+            <th data-label="Period 1">Period 1<br>9:00 - 10:00</th>
+            <th data-label="Period 2">Period 2<br>10:00 - 11:00</th>
+            <th data-label="Break">Break<br>11:00 - 11:30</th>
+            <th data-label="Period 3">Period 3<br>11:30 - 12:30</th>
+            <th data-label="Period 4">Period 4<br>12:30 - 1:30</th>
         </tr>
 
         <tr>
-            <th>Monday</th>
-            <td>Math</td>
-            <td>Science</td>
-            <th rowspan="5">Break</th>
-            <td>English</td>
-            <td>History</td>
+            <th data-label="Day">Monday</th>
+            <td data-label="Period 1">Math</td>
+            <td data-label="Period 2">Science</td>
+            <th data-label="Break" rowspan="5">Break</th>
+            <td data-label="Period 3">English</td>
+            <td data-label="Period 4">History</td>
         </tr>
 
         <tr>
-            <th>Tuesday</th>
-            <td>Geography</td>
-            <td>Math</td>
-            <td>Science</td>
-            <td>Sports</td>
+            <th data-label="Day">Tuesday</th>
+            <td data-label="Period 1">Geography</td>
+            <td data-label="Period 2">Math</td>
+            <td data-label="Period 3">Science</td>
+            <td data-label="Period 4">Sports</td>
         </tr>
 
         <tr>
-            <th>Wednesday</th>
-            <td colspan="2">Lab (Science)</td>
-            <td>Math</td>
-            <td>Computer</td>
+            <th data-label="Day">Wednesday</th>
+            <td data-label="Period 1" colspan="2">Lab (Science)</td>
+            <td data-label="Period 3">Math</td>
+            <td data-label="Period 4">Computer</td>
         </tr>
 
         <tr>
-            <th>Thursday</th>
-            <td>English</td>
-            <td>Geography</td>
-            <td>Math</td>
-            <td>Music</td>
+            <th data-label="Day">Thursday</th>
+            <td data-label="Period 1">English</td>
+            <td data-label="Period 2">Geography</td>
+            <td data-label="Period 3">Math</td>
+            <td data-label="Period 4">Music</td>
         </tr>
 
         <tr>
-            <th>Friday</th>
-            <td>Computer</td>
-            <td>Science</td>
-            <td>English</td>
-            <td>Art</td>
+            <th data-label="Day">Friday</th>
+            <td data-label="Period 1">Computer</td>
+            <td data-label="Period 2">Science</td>
+            <td data-label="Period 3">English</td>
+            <td data-label="Period 4">Art</td>
         </tr>
         <tr>
-            <th>Saturday</th>
-            <th colspan="10">OFF</th>
+            <th data-label="Day">Saturday</th>
+            <th data-label="Status" colspan="10">OFF</th>
         </tr>
          <tr>
-            <th>Sunday</th>
-            <th colspan="10">OFF</th>
+            <th data-label="Day">Sunday</th>
+            <th data-label="Status" colspan="10">OFF</th>
         </tr>
     </table>
 </body>
